@@ -1,0 +1,32 @@
+.animated-scale {
+  animation: animation-scale;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+@keyframes animation-scale {
+  0% {
+    scale: 1;
+  }
+
+  20% {
+    scale: 1;
+  }
+
+  40% {
+    scale: 2;
+  }
+
+  60% {
+    scale: 2;
+  }
+
+  80% {
+    scale: 1;
+  }
+
+  100% {
+    scale: 1;
+  }
+}
